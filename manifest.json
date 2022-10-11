@@ -1,0 +1,17 @@
+{
+    "name": "Primer PWA",
+    "short_name": "PWA1",
+    "theme_color": "#2196f3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "./img/logopwa.jpg",
+            "type": "image/jpg",
+            "sizes": "512x512"
+        }
+    ]
+}

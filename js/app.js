@@ -17552,14 +17552,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _componentes_Sidebar_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./componentes/Sidebar.vue */ "./src/componentes/Sidebar.vue");
+/* harmony import */ var _componentes_Inicio_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./componentes/Inicio.vue */ "./src/componentes/Inicio.vue");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   setup: function setup(__props, _ref) {
     var expose = _ref.expose;
     expose();
     var __returned__ = {
-      SidebarVue: _componentes_Sidebar_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+      Iniciovue: _componentes_Inicio_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
     };
     Object.defineProperty(__returned__, '__isScriptSetup', {
       enumerable: false,
@@ -17571,10 +17571,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Sidebar.vue?vue&type=script&lang=js":
-/*!*****************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Sidebar.vue?vue&type=script&lang=js ***!
-  \*****************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Inicio.vue?vue&type=script&lang=js":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Inicio.vue?vue&type=script&lang=js ***!
+  \****************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -17598,15 +17598,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["SidebarVue"]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)($setup["Iniciovue"]);
 }
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Sidebar.vue?vue&type=template&id=5984fd62":
-/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Sidebar.vue?vue&type=template&id=5984fd62 ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Inicio.vue?vue&type=template&id=9eb7847c":
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Inicio.vue?vue&type=template&id=9eb7847c ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -17615,112 +17615,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-var _hoisted_1 = {
-  "class": "relative flex min-h-screen space-y-6"
-};
-var _hoisted_2 = {
-  "class": "bg-cyan-600 text-cyan-100 w-64"
-};
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: ""
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-10 w-10",
-  viewBox: "0 0 20 20",
-  fill: "currentColor"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  "fill-rule": "evenodd",
-  d: "M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-2 0c0 .993-.241 1.929-.668 2.754l-1.524-1.525a3.997 3.997 0 00.078-2.183l1.562-1.562C15.802 8.249 16 9.1 16 10zm-5.165 3.913l1.58 1.58A5.98 5.98 0 0110 16a5.976 5.976 0 01-2.516-.552l1.562-1.562a4.006 4.006 0 001.789.027zm-4.677-2.796a4.002 4.002 0 01-.041-2.08l-.08.08-1.53-1.533A5.98 5.98 0 004 10c0 .954.223 1.856.619 2.657l1.54-1.54zm1.088-6.45A5.974 5.974 0 0110 4c.954 0 1.856.223 2.657.619l-1.54 1.54a4.002 4.002 0 00-2.346.033L7.246 4.668zM12 10a2 2 0 11-4 0 2 2 0 014 0z",
-  "clip-rule": "evenodd"
-})]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-2xl font-extrabold text-white"
-}, "Medals vamos a hacer")], -1
-/* HOISTED */
-);
-
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-6 w-6",
-  fill: "none",
-  viewBox: "0 0 24 24",
-  stroke: "currentColor",
-  "stroke-width": "2"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  "stroke-linecap": "round",
-  "stroke-linejoin": "round",
-  d: "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
-})], -1
-/* HOISTED */
-);
-
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-white"
-}, "Dashboard", -1
-/* HOISTED */
-);
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("svg", {
-  xmlns: "http://www.w3.org/2000/svg",
-  "class": "h-5 w-5",
-  viewBox: "0 0 20 20",
-  fill: "currentColor"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
-  d: "M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"
-})], -1
-/* HOISTED */
-);
-
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "text-white"
-}, "Acerca de", -1
-/* HOISTED */
-);
-
-var _hoisted_8 = {
-  "class": "flex-1"
-};
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "bg-white shadow px-2 py-4"
-}, "header", -1
-/* HOISTED */
-);
-
-var _hoisted_10 = {
-  "class": "p-8 text-cyan-700 font-extrabold"
-};
-
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Content", -1
-/* HOISTED */
-);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section class=\"text-gray-600 body-font\"><div class=\"container px-5 py-24 mx-auto\"><div class=\"flex flex-wrap -m-4 bg-gray-250\"><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:tex-2xl text-xl font-medium text-gray-900 mb-3\">PROTECCION CIVIL</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/proteccioncivil.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><a href=\"tel:60681830\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></a></div></div></div><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3\">CRUZ VERDE</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/cruzverde.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><a href=\"tel:60681830\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></a></div></div></div><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3\">CRUZ ROJA</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/cruzroja.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></div></div></div><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3\">COMANDOS DE SALVAMENTOS</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/comandossalvamento.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></div></div></div><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3\">SISTEMAS DE EMERGENCIAS MEDICAS</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/emergencias132.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></div></div></div><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3\">POLICIA NACIONAL CIVIL</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/pnc911.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></div></div></div><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3\">ANDA</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/anda.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></div></div></div><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3\">CUERPO DE BOMBEROS</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/bomberos.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></div></div></div><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3\">AES</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/aes.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></div></div></div><div class=\"p-2 lg:w-1/3\"><div class=\"h-full bg-gray-300 bg-opacity-75 px-4 pt-8 pb-12 rounded-lg overflow-hidden text-center relative\"><h2 class=\"tracking-widest text-xs title-font font-medium text-gray-400 mb-1\">EMERGENCIA</h2><h1 class=\"title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3\">DELSUR</h1><a class=\"text-indigo-500 inline-flex items-center\"><img src=\"http://localhost/tel2/public/imgs/delsur.png\" width=\"350\"></a><div class=\"inline-flex rounded-md shadow\"><button type=\"button\" class=\"py-4 px-6 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg\"> Llamar Ahora </button></div></div></div></div></div></section>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
-
-  var _component_router_view = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-view");
-
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
-    to: "/",
-    "class": "flex items-center space-x-2 py-3 px-4 hover:bg-cyan-700"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_4, _hoisted_5];
-    }),
-    _: 1
-    /* STABLE */
-
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
-    to: "/acercade",
-    "class": "flex items-center space-x-2 py-3 px-4 hover:bg-cyan-700"
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_6, _hoisted_7];
-    }),
-    _: 1
-    /* STABLE */
-
-  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_view)])])]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("<p>hola</p>\r\n<div class=\"flex justify-center items-center w-screen h-screen\">\r\n\t<div class=\"w-[300px] h-[649px] bg-white rounded-lg\">\r\n\t\t<div class=\"relative be-gray-200\">\r\n\t\t\t<img src=\"http://localhost/tel2/public/imgs/proteccioncivil.png\" width=\"50\" class=\"absolute bottom-[20px]\" />\r\n\t\t</div>\r\n\t</div>\r\n</div>"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("<section class=\"text-gray-600 body-font relative\">\r\n  <div class=\"container px-5 py-24 mx-auto\">\r\n    <div class=\"flex flex-col text-center w-full mb-12\">\r\n      <h1 class=\"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900\">Emergencias</h1>\r\n      <p class=\"lg:w-2/3 mx-auto leading-relaxed text-base\">Aplicacion de numeros de emergencia de El Salvador</p>\r\n    </div>\r\n    <div class=\"lg:w-1/2 md:w-2/3 mx-auto\">\r\n      <div class=\"flex flex-wrap -m-2\">\r\n        <div class=\"p-2 w-1/2\">\r\n          <div class=\"relative border-4 border-green-900 border-solid m-8\">\r\n \t\t\t<img src=\"http://localhost/tel2/public/imgs/proteccioncivil.png\"  width=\"350\" />\r\n          </div>\r\n           <div class=\"relative border-4 border-green-900 border-solid m-8\">\r\n \t\t\t<img src=\"http://localhost/tel2/public/imgs/cruzroja.png\"  width=\"350\" />\r\n          </div>\r\n          <div class=\"relative border-green-900 border-solid m-8\">\r\n            <img src=\"http://localhost/tel2/public/imgs/emergencias132.png\"  width=\"350\" />\r\n          </div>\r\n          <div class=\"relative border-green-900 border-solid m-8\">\r\n            <img src=\"http://localhost/tel2/public/imgs/aes.png\"  width=\"350\" />\r\n          </div>\r\n          <div class=\"relative border-green-900 border-solid m-8\">\r\n            <img src=\"http://localhost/tel2/public/imgs/pnc911.png\"  width=\"350\" />\r\n          </div>\r\n        </div>\r\n        <div class=\"p-2 w-1/2\">\r\n          <div class=\"relative border-green-900 border-solid m-8\">\r\n            <img src=\"http://localhost/tel2/public/imgs/cruzverde.png\"  width=\"350\" />\r\n          </div>\r\n          <div class=\"relative border-green-900 border-solid m-8\">\r\n            <img src=\"http://localhost/tel2/public/imgs/comandossalvamento.png\"  width=\"350\" />\r\n          </div>\r\n          <div class=\"relative border-green-900 border-solid m-8\">\r\n            <img src=\"http://localhost/tel2/public/imgs/bomberos.png\"  width=\"350\" />\r\n          </div>\r\n          <div class=\"relative border-green-900 border-solid m-8\">\r\n            <img src=\"http://localhost/tel2/public/imgs/delsur.png\"  width=\"350\" />\r\n          </div>\r\n          <div class=\"relative border-green-900 border-solid m-8\">\r\n            <img src=\"http://localhost/tel2/public/imgs/anda.png\"  width=\"350\" />\r\n          </div>\r\n        </div>\r\n        <div class=\"p-2 w-full\">\r\n          <div class=\"relative\">\r\n            <label for=\"message\" class=\"leading-7 text-sm text-gray-600\">Message</label>\r\n            <textarea id=\"message\" name=\"message\" class=\"w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out\"></textarea>\r\n          </div>\r\n        </div>\r\n        <div class=\"p-2 w-full\">\r\n          <button class=\"flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg\">Button</button>\r\n        </div>\r\n        <div class=\"p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center\">\r\n          <a class=\"text-indigo-500\">example@email.com</a>\r\n          <p class=\"leading-normal my-5\">49 Smith St.\r\n            <br>Saint Cloud, MN 56301\r\n          </p>\r\n          <span class=\"inline-flex\">\r\n            <a class=\"text-gray-500\">\r\n              <svg fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" class=\"w-5 h-5\" viewBox=\"0 0 24 24\">\r\n                <path d=\"M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z\"></path>\r\n              </svg>\r\n            </a>\r\n            <a class=\"ml-4 text-gray-500\">\r\n              <svg fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" class=\"w-5 h-5\" viewBox=\"0 0 24 24\">\r\n                <path d=\"M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z\"></path>\r\n              </svg>\r\n            </a>\r\n            <a class=\"ml-4 text-gray-500\">\r\n              <svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" class=\"w-5 h-5\" viewBox=\"0 0 24 24\">\r\n                <rect width=\"20\" height=\"20\" x=\"2\" y=\"2\" rx=\"5\" ry=\"5\"></rect>\r\n                <path d=\"M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01\"></path>\r\n              </svg>\r\n            </a>\r\n            <a class=\"ml-4 text-gray-500\">\r\n              <svg fill=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" class=\"w-5 h-5\" viewBox=\"0 0 24 24\">\r\n                <path d=\"M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z\"></path>\r\n              </svg>\r\n            </a>\r\n          </span>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</section>"), _hoisted_1], 2112
+  /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */
+  );
 }
 
 /***/ }),
@@ -17882,25 +17783,25 @@ if (false) {}
 
 /***/ }),
 
-/***/ "./src/componentes/Sidebar.vue":
-/*!*************************************!*\
-  !*** ./src/componentes/Sidebar.vue ***!
-  \*************************************/
+/***/ "./src/componentes/Inicio.vue":
+/*!************************************!*\
+  !*** ./src/componentes/Inicio.vue ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Sidebar_vue_vue_type_template_id_5984fd62__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Sidebar.vue?vue&type=template&id=5984fd62 */ "./src/componentes/Sidebar.vue?vue&type=template&id=5984fd62");
-/* harmony import */ var _Sidebar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Sidebar.vue?vue&type=script&lang=js */ "./src/componentes/Sidebar.vue?vue&type=script&lang=js");
+/* harmony import */ var _Inicio_vue_vue_type_template_id_9eb7847c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Inicio.vue?vue&type=template&id=9eb7847c */ "./src/componentes/Inicio.vue?vue&type=template&id=9eb7847c");
+/* harmony import */ var _Inicio_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Inicio.vue?vue&type=script&lang=js */ "./src/componentes/Inicio.vue?vue&type=script&lang=js");
 /* harmony import */ var C_wamp64_www_tel2_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,C_wamp64_www_tel2_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Sidebar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Sidebar_vue_vue_type_template_id_5984fd62__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"src/componentes/Sidebar.vue"]])
+const __exports__ = /*#__PURE__*/(0,C_wamp64_www_tel2_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Inicio_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Inicio_vue_vue_type_template_id_9eb7847c__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"src/componentes/Inicio.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -17974,17 +17875,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/componentes/Sidebar.vue?vue&type=script&lang=js":
-/*!*************************************************************!*\
-  !*** ./src/componentes/Sidebar.vue?vue&type=script&lang=js ***!
-  \*************************************************************/
+/***/ "./src/componentes/Inicio.vue?vue&type=script&lang=js":
+/*!************************************************************!*\
+  !*** ./src/componentes/Inicio.vue?vue&type=script&lang=js ***!
+  \************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Sidebar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Inicio_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Sidebar_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Sidebar.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Sidebar.vue?vue&type=script&lang=js");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Inicio_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Inicio.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Inicio.vue?vue&type=script&lang=js");
  
 
 /***/ }),
@@ -18004,17 +17905,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/componentes/Sidebar.vue?vue&type=template&id=5984fd62":
-/*!*******************************************************************!*\
-  !*** ./src/componentes/Sidebar.vue?vue&type=template&id=5984fd62 ***!
-  \*******************************************************************/
+/***/ "./src/componentes/Inicio.vue?vue&type=template&id=9eb7847c":
+/*!******************************************************************!*\
+  !*** ./src/componentes/Inicio.vue?vue&type=template&id=9eb7847c ***!
+  \******************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Sidebar_vue_vue_type_template_id_5984fd62__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Inicio_vue_vue_type_template_id_9eb7847c__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Sidebar_vue_vue_type_template_id_5984fd62__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Sidebar.vue?vue&type=template&id=5984fd62 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Sidebar.vue?vue&type=template&id=5984fd62");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Inicio_vue_vue_type_template_id_9eb7847c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Inicio.vue?vue&type=template&id=9eb7847c */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/componentes/Inicio.vue?vue&type=template&id=9eb7847c");
 
 
 /***/ }),

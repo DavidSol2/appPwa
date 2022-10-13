@@ -3,13 +3,13 @@
     "short_name": "PWA1",
     "theme_color": "#2196f3",
     "background_color": "#2196f3",
-    "display": "fullscreen",
+    "display": "standalone",
     "orientation": "portrait",
     "scope": "./",
     "start_url": "./",
     "icons": [
         {
-            "src": "./img/logopwa.png",
+            "src": "./logopwa.png",
             "type": "image/png",
             "sizes": "512x512"
         }
